@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioDockify AI | Tier 3 BiModal Ensemble & Multi-Target Alzheimer's Screening</title>
+    <meta name="description" content="Tier 3 BiModal Deep Learning Stacked Ensemble (MolFormer-XL + ChemBERTa + Random Forest) for Multi-Target Alzheimer's Drug Discovery against AChE, BACE1, and GSK-3β.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <div class="brand-logo">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">BioDockify<span class="brand-accent">.AI</span></span>
+                    <span class="brand-tagline">ai.biodockify.com | Tier 3 Suite</span>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <button class="nav-btn active" data-tab="single-screen">Tier 3 Predictor</button>
+                <button class="nav-btn" data-tab="tier3-plant-suite">🌿 Plant Screening Hub</button>
+                <button class="nav-btn" data-tab="batch-screen">Batch Funnel</button>
+                <button class="nav-btn" data-tab="library-explorer">10k Proof Library</button>
+                <button class="nav-btn" data-tab="model-architecture">AI Architecture</button>
+                <button class="nav-btn" data-tab="download-center">GitHub & Models</button>
+            </nav>
+            <div class="nav-cta">
+                <a href="https://github.com/tajo9128/biodockify_finetune" target="_blank" class="github-badge">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                    Ensemble Repo
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-container">
+        
+        <!-- Hero Header -->
+        <section class="hero-banner">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                <span>BioDockify Tier 3 BiModal Ensemble Model (94.20% 5-Fold Stratified CV Accuracy)</span>
+            </div>
+            <h1 class="hero-title">Tier 3 Multi-Target AI Screening & Lead Discovery Suite</h1>
+            <p class="hero-desc">
+                Integrated BiModal Transformer architecture linking <strong>MolFormer-XL (768-dim)</strong> and <strong>ChemBERTa-77M (384-dim)</strong> with a <strong>Calibrated Random Forest + Stacked Meta-Learner</strong> for prospective screening against <strong>AChE (`4EY7`), BACE1 (`1FKN`), and GSK-3β (`1Q41`)</strong>.
+            </p>
+            
+            <div class="metrics-strip">
+                <div class="metric-card">
+                    <span class="metric-val">Tier 3</span>
+                    <span class="metric-lbl">BiModal Ensemble</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-val">94.20%</span>
+                    <span class="metric-lbl">5-Fold CV Accuracy</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-val">0.958</span>
+                    <span class="metric-lbl">ROC-AUC Score</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-val">3,205</span>
+                    <span class="metric-lbl">Global Plant SMILES</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-val">&lt; 15 ms</span>
+                    <span class="metric-lbl">CPU Inference</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 1: Single Molecule Predictor (Tier 3) -->
+        <section id="single-screen" class="tab-content active">
+            <div class="grid-2col">
+                <!-- Input Panel -->
+                <div class="panel card">
+                    <div class="panel-header">
+                        <h2>🔬 Tier 3 Single Molecule AI Predictor</h2>
+                        <span class="panel-tag">BiModal Live Engine</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="smiles-input">Enter Canonical SMILES String or Molecule Name:</label>
+                        <div class="input-wrapper">
+                            <input type="text" id="smiles-input" placeholder="e.g. O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" value="O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12">
+                            <button id="predict-btn" class="btn btn-primary">Run Tier 3 AI Prediction</button>
+                        </div>
+                    </div>
+
+                    <div class="preset-section">
+                        <span class="preset-label">Load Reference Lead Candidate:</span>
+                        <div class="preset-chips">
+                            <button class="chip" data-name="Luteolin" data-smiles="O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" data-origin="Evolvulus alsinoides">Luteolin (Evolvulus)</button>
+                            <button class="chip" data-name="(-)-Epicatechin" data-smiles="Oc1cc(O)c2c(c1)OC(c1ccc(O)c(O)c1)C(O)C2" data-origin="Cinnamomum zeylanicum">(-)-Epicatechin (Cinnamon)</button>
+                            <button class="chip" data-name="Evolvine" data-smiles="CN1CCc2ccccc2C1" data-origin="Evolvulus alsinoides">Evolvine (Alkaloid)</button>
+                            <button class="chip" data-name="Donepezil" data-smiles="COc1cc2c(cc1OC)C(=O)C(CC3CCN(Cc4ccccc4)CC3)C2" data-origin="Clinical AChE Control">Donepezil (Control)</button>
+                        </div>
+                    </div>
+
+                    <!-- 2D Structure Preview -->
+                    <div class="structure-card">
+                        <div class="structure-header">
+                            <span id="molecule-title">Selected: Luteolin (Evolvulus alsinoides)</span>
+                            <span id="smiles-display" class="mono-badge">O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12</span>
+                        </div>
+                        <div id="structure-box" class="structure-canvas-box">
+                            <div class="mol-placeholder" id="svg-container">
+                                <span>2D Structure Rendered via RDKit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Panel -->
+                <div class="panel card results-panel">
+                    <div class="panel-header">
+                        <h2>📊 Tier 3 Multi-Target AI Scorecard</h2>
+                        <span id="status-tag" class="badge badge-success">High Multi-Target Lead</span>
+                    </div>
+
+                    <!-- Main Composite Gauge -->
+                    <div class="composite-score-card">
+                        <div class="score-dial">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <path id="mtcs-circle" class="circle" stroke-dasharray="94.6, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <text x="18" y="20.35" id="mtcs-score-text" class="percentage">0.947</text>
+                            </svg>
+                        </div>
+                        <div class="score-meta">
+                            <h3>Tier 3 Stacked Confidence: <span id="tier3-confidence-val" style="color:#38bdf8;">0.9468</span></h3>
+                            <p id="recommendation-text">High-confidence multi-target candidate. Strong simultaneous binding predicted against AChE, BACE1, and GSK-3β.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tier 3 Model Sub-Score Breakdown -->
+                    <div class="ensemble-submodels" style="margin-bottom: 1.2rem;">
+                        <span class="submodel-title">Tier 3 Tri-Model Latent Predictions:</span>
+                        <div class="submodel-pills">
+                            <span id="sub-deep-score" class="pill">BiModal Transformer: <strong id="val-deep-score">0.942</strong></span>
+                            <span id="sub-rf-score" class="pill">Random Forest: <strong id="val-rf-score">0.930</strong></span>
+                            <span id="sub-meta-score" class="pill" style="border: 1px solid var(--border-highlight);">Meta-Learner Stack: <strong id="val-meta-score" style="color:#34d399;">0.9468</strong></span>
+                        </div>
+                    </div>
+
+                    <!-- Target Probabilities Breakdown -->
+                    <div class="targets-breakdown">
+                        <div class="target-row">
+                            <div class="target-info">
+                                <span class="target-name">Human Acetylcholinesterase (AChE - 4EY7)</span>
+                                <span id="prob-ache" class="target-val">94.5%</span>
+                            </div>
+                            <div class="prog-bar"><div id="bar-ache" class="prog-fill fill-blue" style="width: 94.5%;"></div></div>
+                        </div>
+                        <div class="target-row">
+                            <div class="target-info">
+                                <span class="target-name">Human Beta-Secretase 1 (BACE1 - 1FKN)</span>
+                                <span id="prob-bace" class="target-val">91.2%</span>
+                            </div>
+                            <div class="prog-bar"><div id="bar-bace" class="prog-fill fill-green" style="width: 91.2%;"></div></div>
+                        </div>
+                        <div class="target-row">
+                            <div class="target-info">
+                                <span class="target-name">Glycogen Synthase Kinase-3β (GSK-3β - 1Q41)</span>
+                                <span id="prob-gsk" class="target-val">89.5%</span>
+                            </div>
+                            <div class="prog-bar"><div id="bar-gsk" class="prog-fill fill-purple" style="width: 89.5%;"></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Physicochemical & Pharmacokinetic Properties -->
+                    <div class="props-grid">
+                        <div class="prop-item">
+                            <span class="prop-lbl">Molecular Weight</span>
+                            <span id="prop-mw" class="prop-val">286.24 Da</span>
+                        </div>
+                        <div class="prop-item">
+                            <span class="prop-lbl">Calculated LogP</span>
+                            <span id="prop-logp" class="prop-val">2.28</span>
+                        </div>
+                        <div class="prop-item">
+                            <span class="prop-lbl">Polar Surface (TPSA)</span>
+                            <span id="prop-tpsa" class="prop-val">111.13 Å²</span>
+                        </div>
+                        <div class="prop-item">
+                            <span class="prop-lbl">H-Donors / Acceptors</span>
+                            <span id="prop-hbd-hba" class="prop-val">4 / 6</span>
+                        </div>
+                        <div class="prop-item">
+                            <span class="prop-lbl">Pfizer CNS MPO Score</span>
+                            <span id="prop-cns-mpo" class="prop-val text-success">3.65 / 6.0</span>
+                        </div>
+                        <div class="prop-item">
+                            <span class="prop-lbl">BBB Permeability Category</span>
+                            <span id="prop-bbb" class="prop-val">High (CNS+)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: Plant Screening Hub (Tier 3) -->
+        <section id="tier3-plant-suite" class="tab-content">
+            <div class="panel card">
+                <div class="panel-header">
+                    <h2>🌿 BioDockify Tier 3 Plant Screening Hub (3,205 Global Plant Chemical Space)</h2>
+                    <span class="panel-tag">Natural Products AI Engine</span>
+                </div>
+                <p>Curated natural product chemical space from <em>Evolvulus alsinoides</em>, <em>Cinnamomum</em>, and COCONUT (325k+) evaluated through the <strong>Tier 3 BiModal Stacked Ensemble</strong>.</p>
+
+                <div class="metrics-strip" style="margin-bottom: 1.5rem;">
+                    <div class="metric-card">
+                        <span class="metric-val">3,205</span>
+                        <span class="metric-lbl">Screened Plant SMILES</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-val">91.48%</span>
+                        <span class="metric-lbl">Tier 3 Baseline</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-val">94.20%</span>
+                        <span class="metric-lbl">Calibrated Ensemble</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-val">Top 10</span>
+                        <span class="metric-lbl">Elite Lead Pool</span>
+                    </div>
+                </div>
+
+                <h3>🏆 Top Tier 3 Plant Candidates (Validated Multi-Target Leads)</h3>
+                <div class="table-container" style="margin-top: 1rem;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Lead Candidate</th>
+                                <th>Botanical Source</th>
+                                <th>BiModal Deep Score</th>
+                                <th>Random Forest</th>
+                                <th>Tier 3 Confidence</th>
+                                <th>P(AChE)</th>
+                                <th>P(BACE1)</th>
+                                <th>P(GSK3β)</th>
+                                <th>CNS MPO</th>
+                                <th>Recommendation</th>
+                            </tr>
+                        </thead>
+                        <tbody id="top-plant-tbody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: Batch Screening -->
+        <section id="batch-screen" class="tab-content">
+            <div class="panel card">
+                <div class="panel-header">
+                    <h2>📁 High-Throughput Batch Screening Funnel</h2>
+                    <span class="panel-tag">Multi-Molecule Processing</span>
+                </div>
+                <p>Paste multiple SMILES strings (one per line) or upload a CSV file to screen chemical libraries through the Tier 3 BiModal Ensemble.</p>
+                
+                <div class="batch-input-grid">
+                    <div class="form-group">
+                        <label for="batch-text">Paste SMILES (one per line):</label>
+                        <textarea id="batch-text" rows="6" placeholder="O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12
+Oc1cc(O)c2c(c1)OC(c1ccc(O)c(O)c1)C(O)C2
+CN1CCc2ccccc2C1
+COc1cc2c(cc1OC)C(=O)C(CC3CCN(Cc4ccccc4)CC3)C2"></textarea>
+                    </div>
+                    <div class="upload-zone" id="drop-zone">
+                        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/>
+                        </svg>
+                        <span>Drag & Drop CSV / SDF File</span>
+                        <span class="upload-hint">Supports SMILES or Structure columns</span>
+                        <input type="file" id="file-upload" accept=".csv, .txt, .sdf" style="display:none;">
+                        <button class="btn btn-secondary" onclick="document.getElementById('file-upload').click()">Browse Files</button>
+                    </div>
+                </div>
+
+                <div class="batch-controls">
+                    <button id="run-batch-btn" class="btn btn-primary">Run Tier 3 Batch AI Screening</button>
+                    <button id="export-batch-csv" class="btn btn-secondary" disabled>Export Screened Results (.CSV)</button>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="batch-results-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Compound SMILES</th>
+                                <th>MW (Da)</th>
+                                <th>cLogP</th>
+                                <th>TPSA (Å²)</th>
+                                <th>CNS MPO</th>
+                                <th>Tier 1 Status</th>
+                                <th>Tier 3 Confidence</th>
+                                <th>Multi-Target Decision</th>
+                            </tr>
+                        </thead>
+                        <tbody id="batch-tbody">
+                            <tr>
+                                <td colspan="9" class="text-center text-muted">No batch execution initiated. Paste SMILES or click "Run Tier 3 Batch AI Screening".</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 4: 10k Proof Library -->
+        <section id="library-explorer" class="tab-content">
+            <div class="panel card">
+                <div class="panel-header">
+                    <h2>📚 10,000 Anti-Alzheimer's Verified Literature Library Explorer</h2>
+                    <span class="panel-tag">100% Peer-Reviewed Grounding</span>
+                </div>
+                <div class="filter-toolbar">
+                    <input type="text" id="lib-search" placeholder="Search by Compound Name, Target, Origin, or Scaffold..." class="search-input">
+                    <select id="lib-target-filter" class="select-filter">
+                        <option value="ALL">All Validated Targets</option>
+                        <option value="AChE">AChE / Acetylcholinesterase</option>
+                        <option value="BACE1">BACE1 / Beta-Secretase</option>
+                        <option value="GSK">GSK-3β / Kinase</option>
+                    </select>
+                </div>
+                <div class="table-container">
+                    <table class="data-table" id="library-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Compound Name</th>
+                                <th>Botanical / Synthetic Origin</th>
+                                <th>Scaffold Family</th>
+                                <th>Target Evaluated</th>
+                                <th>Experimental Potency (IC50)</th>
+                                <th>CNS MPO</th>
+                                <th>Journal & Year</th>
+                                <th>Proof Links</th>
+                            </tr>
+                        </thead>
+                        <tbody id="library-tbody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 5: AI Architecture -->
+        <section id="model-architecture" class="tab-content">
+            <div class="panel card">
+                <div class="panel-header">
+                    <h2>🧠 Tier 3 BiModal Stacked Architecture & Cross-Validation Metrics</h2>
+                    <span class="panel-tag">Dual-Stream Deep Learning</span>
+                </div>
+                <div class="architecture-diagram">
+                    <div class="arch-box">
+                        <span class="arch-tag">Stream 1 & 2 Inputs</span>
+                        <h3>BiModal Transformers</h3>
+                        <ul>
+                            <li><strong>MolFormer-XL (768-dim)</strong>: Rotary Positional Attention</li>
+                            <li><strong>ChemBERTa-77M (384-dim)</strong>: RoBERTa Chemical Language</li>
+                            <li><strong>Latent Concatenation Layer</strong> (1,152-dim)</li>
+                        </ul>
+                    </div>
+                    <div class="arch-arrow">➔</div>
+                    <div class="arch-box">
+                        <span class="arch-tag">Base Learners</span>
+                        <h3>Tree & Dense Ensemble</h3>
+                        <ul>
+                            <li><strong>Dense Transformer Head</strong> (Deep Score)</li>
+                            <li><strong>Random Forest Classifier</strong> (RF Score)</li>
+                            <li><strong>Soft Voting Weights</strong>: [0.3425, 0.3149, 0.3425]</li>
+                        </ul>
+                    </div>
+                    <div class="arch-arrow">➔</div>
+                    <div class="arch-box">
+                        <span class="arch-tag">Meta-Learner</span>
+                        <h3>Calibrated Stacking Head</h3>
+                        <ul>
+                            <li><strong>β0 (Intercept)</strong> = -3.2863</li>
+                            <li><strong>β (Coefficients)</strong> = [2.4895, 1.7947, 1.8232]</li>
+                            <li><strong>5-Fold CV Accuracy:</strong> 94.20% | <strong>AUC:</strong> 0.958</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 6: Download Center -->
+        <section id="download-center" class="tab-content">
+            <div class="panel card">
+                <div class="panel-header">
+                    <h2>📦 Download Center & GitHub Repositories</h2>
+                    <span class="panel-tag">Open Science</span>
+                </div>
+                <div class="download-grid">
+                    <div class="download-card">
+                        <div class="dl-icon">🧠</div>
+                        <h3>Tier 3 Model Repository</h3>
+                        <p>Complete Colab notebooks, target checkpoints, and serialized model binaries.</p>
+                        <a href="https://github.com/tajo9128/biodockify_finetune" target="_blank" class="btn btn-primary">biodockify_finetune Repo</a>
+                    </div>
+                    <div class="download-card">
+                        <div class="dl-icon">📚</div>
+                        <h3>Publication 2 Screening Repository</h3>
+                        <p>10,000 proof dataset, 100ns MD trajectories, and Tier 1–4 screening logs.</p>
+                        <a href="https://github.com/tajo9128/publication2" target="_blank" class="btn btn-primary">publication2 Repo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <span class="footer-brand">BioDockify Tier 3 AI Platform</span>
+                <span class="footer-copy">© 2026 Tajuddin Shaik. Multi-Target Alzheimer's Lead Discovery Suite.</span>
+            </div>
+            <div class="footer-right">
+                <a href="https://ai.biodockify.com" target="_blank">AI Portal</a>
+                <a href="https://www.biodockify.com" target="_blank">Platform Homepage</a>
+                <a href="https://github.com/tajo9128/biodockify_finetune" target="_blank">GitHub Repository</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
