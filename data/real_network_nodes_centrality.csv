@@ -1,0 +1,39 @@
+Node_ID,Label,Type,Category,Class,Degree,Betweenness_Centrality,Closeness_Centrality,Eigenvector_Centrality
+ACHE,Acetylcholinesterase,Target,Cholinergic Target,,20,0.2826,0.6607,0.3443
+BCHE,Butyrylcholinesterase,Target,Cholinergic Target,,9,0.0428,0.4625,0.1469
+BACE1,Beta-Secretase 1,Target,Amyloidogenic Target,,11,0.049,0.4868,0.2381
+GSK3B,Glycogen Synthase Kinase-3 beta,Target,Tau Kinase Target,,9,0.0216,0.4405,0.2086
+MAPT,Microtubule-Associated Protein Tau,Target,Tau Pathology,,6,0.0093,0.4111,0.1384
+APP,Amyloid Precursor Protein,Target,Amyloidogenic Target,,4,0.0032,0.3776,0.0893
+MAOB,Monoamine Oxidase B,Target,Oxidative Metabolism,,2,0.0007,0.3364,0.0277
+CASP3,Caspase-3,Target,Neuronal Apoptosis,,3,0.0023,0.3491,0.0424
+BCL2,B-cell Lymphoma 2,Target,Neuronal Survival,,4,0.0028,0.3936,0.0972
+TNF,Tumor Necrosis Factor-alpha,Target,Neuroinflammation,,13,0.0896,0.5286,0.2548
+IL6,Interleukin-6,Target,Neuroinflammation,,6,0.0113,0.4111,0.1271
+AKT1,AKT Serine/Threonine Kinase 1,Target,Neuroprotection (PI3K),,8,0.0249,0.4302,0.1639
+PTGS2,Cyclooxygenase-2 (COX-2),Target,Neuroinflammation,,11,0.0753,0.4868,0.1777
+NFE2L2,Nrf2 Transcription Factor,Target,Antioxidant Defense (ARE),,11,0.0585,0.5,0.2192
+SOD1,Superoxide Dismutase 1,Target,Antioxidant Defense,,5,0.0101,0.37,0.0616
+BDNF,Brain-Derived Neurotrophic Factor,Target,Synaptic Plasticity,,9,0.0398,0.4625,0.1707
+Scopoletin,Scopoletin,Compound,Evolvulus alsinoides,Coumarin,6,0.0148,0.4744,0.1656
+Scopolin,Scopolin,Compound,Evolvulus alsinoides,Coumarin Glycoside,4,0.012,0.4512,0.0968
+Umbelliferone,Umbelliferone,Compound,Evolvulus alsinoides,Coumarin,4,0.0145,0.4405,0.0853
+Evolvine,Evolvine,Compound,Evolvulus alsinoides,Alkaloid,4,0.0087,0.4512,0.099
+Betaine,Betaine,Compound,Evolvulus alsinoides,Alkaloid,4,0.0124,0.4405,0.0954
+Ferulic acid,Ferulic acid,Compound,Evolvulus alsinoides,Phenolic acid,8,0.0359,0.5,0.1981
+Caffeic acid,Caffeic acid,Compound,Evolvulus alsinoides,Phenolic acid,6,0.0321,0.4744,0.1531
+Chlorogenic acid,Chlorogenic acid,Compound,Evolvulus alsinoides,Phenolic ester,8,0.0315,0.5,0.205
+Luteolin,Luteolin,Compound,Evolvulus alsinoides,Flavonoid,10,0.0656,0.5286,0.2275
+Kaempferol,Kaempferol,Compound,Evolvulus alsinoides,Flavonoid,7,0.0238,0.4868,0.183
+Apigenin,Apigenin,Compound,Evolvulus alsinoides,Flavonoid,8,0.0323,0.5,0.2034
+trans-Cinnamaldehyde,trans-Cinnamaldehyde,Compound,Cinnamomum,Phenylpropanoid,7,0.0266,0.4868,0.1763
+trans-Cinnamic acid,trans-Cinnamic acid,Compound,Cinnamomum,Phenylpropanoid,4,0.0122,0.4405,0.1035
+Cinnamyl acetate,Cinnamyl acetate,Compound,Cinnamomum,Phenylpropanoid ester,2,0.0008,0.4205,0.0626
+Eugenol,Eugenol,Compound,Cinnamomum,Phenylpropanoid,7,0.0596,0.4868,0.1478
+Linalool,Linalool,Compound,Cinnamomum,Terpenoid,5,0.0234,0.4625,0.115
+(-)-Epicatechin,(-)-Epicatechin,Compound,Cinnamomum,Flavan-3-ol,9,0.0456,0.5139,0.2002
+(+)-Catechin,(+)-Catechin,Compound,Cinnamomum,Flavan-3-ol,9,0.0456,0.5139,0.2002
+Procyanidin A2,Procyanidin A2,Compound,Cinnamomum,Proanthocyanidin,7,0.0198,0.4302,0.1463
+Coumarin,Coumarin,Compound,Cinnamomum,Benzopyrone,4,0.02,0.4405,0.0835
+Camphor,Camphor,Compound,Cinnamomum,Terpenoid,3,0.007,0.4302,0.07
+beta-Caryophyllene,beta-Caryophyllene,Compound,Cinnamomum,Sesquiterpene,5,0.013,0.4512,0.1072

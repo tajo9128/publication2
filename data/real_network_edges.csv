@@ -1,0 +1,132 @@
+Source_Compound,Target_Protein,Plant_Source,Interaction_Type
+Scopoletin,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Scopoletin,BCHE,Evolvulus alsinoides,Modulates / Inhibits
+Scopoletin,BACE1,Evolvulus alsinoides,Modulates / Inhibits
+Scopoletin,PTGS2,Evolvulus alsinoides,Modulates / Inhibits
+Scopoletin,NFE2L2,Evolvulus alsinoides,Modulates / Inhibits
+Scopoletin,TNF,Evolvulus alsinoides,Modulates / Inhibits
+Scopolin,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Scopolin,BCHE,Evolvulus alsinoides,Modulates / Inhibits
+Scopolin,SOD1,Evolvulus alsinoides,Modulates / Inhibits
+Scopolin,TNF,Evolvulus alsinoides,Modulates / Inhibits
+Umbelliferone,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Umbelliferone,BCHE,Evolvulus alsinoides,Modulates / Inhibits
+Umbelliferone,PTGS2,Evolvulus alsinoides,Modulates / Inhibits
+Umbelliferone,CASP3,Evolvulus alsinoides,Modulates / Inhibits
+Evolvine,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Evolvine,BCHE,Evolvulus alsinoides,Modulates / Inhibits
+Evolvine,BDNF,Evolvulus alsinoides,Modulates / Inhibits
+Evolvine,AKT1,Evolvulus alsinoides,Modulates / Inhibits
+Betaine,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Betaine,NFE2L2,Evolvulus alsinoides,Modulates / Inhibits
+Betaine,BDNF,Evolvulus alsinoides,Modulates / Inhibits
+Betaine,SOD1,Evolvulus alsinoides,Modulates / Inhibits
+Ferulic acid,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Ferulic acid,BACE1,Evolvulus alsinoides,Modulates / Inhibits
+Ferulic acid,APP,Evolvulus alsinoides,Modulates / Inhibits
+Ferulic acid,GSK3B,Evolvulus alsinoides,Modulates / Inhibits
+Ferulic acid,NFE2L2,Evolvulus alsinoides,Modulates / Inhibits
+Ferulic acid,TNF,Evolvulus alsinoides,Modulates / Inhibits
+Ferulic acid,IL6,Evolvulus alsinoides,Modulates / Inhibits
+Ferulic acid,BDNF,Evolvulus alsinoides,Modulates / Inhibits
+Caffeic acid,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Caffeic acid,BACE1,Evolvulus alsinoides,Modulates / Inhibits
+Caffeic acid,PTGS2,Evolvulus alsinoides,Modulates / Inhibits
+Caffeic acid,NFE2L2,Evolvulus alsinoides,Modulates / Inhibits
+Caffeic acid,TNF,Evolvulus alsinoides,Modulates / Inhibits
+Caffeic acid,CASP3,Evolvulus alsinoides,Modulates / Inhibits
+Chlorogenic acid,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Chlorogenic acid,BCHE,Evolvulus alsinoides,Modulates / Inhibits
+Chlorogenic acid,BACE1,Evolvulus alsinoides,Modulates / Inhibits
+Chlorogenic acid,GSK3B,Evolvulus alsinoides,Modulates / Inhibits
+Chlorogenic acid,NFE2L2,Evolvulus alsinoides,Modulates / Inhibits
+Chlorogenic acid,TNF,Evolvulus alsinoides,Modulates / Inhibits
+Chlorogenic acid,IL6,Evolvulus alsinoides,Modulates / Inhibits
+Chlorogenic acid,BDNF,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,BCHE,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,BACE1,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,GSK3B,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,MAPT,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,TNF,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,IL6,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,PTGS2,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,AKT1,Evolvulus alsinoides,Modulates / Inhibits
+Luteolin,BCL2,Evolvulus alsinoides,Modulates / Inhibits
+Kaempferol,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Kaempferol,BACE1,Evolvulus alsinoides,Modulates / Inhibits
+Kaempferol,GSK3B,Evolvulus alsinoides,Modulates / Inhibits
+Kaempferol,AKT1,Evolvulus alsinoides,Modulates / Inhibits
+Kaempferol,BCL2,Evolvulus alsinoides,Modulates / Inhibits
+Kaempferol,NFE2L2,Evolvulus alsinoides,Modulates / Inhibits
+Kaempferol,TNF,Evolvulus alsinoides,Modulates / Inhibits
+Apigenin,ACHE,Evolvulus alsinoides,Modulates / Inhibits
+Apigenin,BACE1,Evolvulus alsinoides,Modulates / Inhibits
+Apigenin,GSK3B,Evolvulus alsinoides,Modulates / Inhibits
+Apigenin,MAPT,Evolvulus alsinoides,Modulates / Inhibits
+Apigenin,AKT1,Evolvulus alsinoides,Modulates / Inhibits
+Apigenin,BDNF,Evolvulus alsinoides,Modulates / Inhibits
+Apigenin,TNF,Evolvulus alsinoides,Modulates / Inhibits
+Apigenin,PTGS2,Evolvulus alsinoides,Modulates / Inhibits
+trans-Cinnamaldehyde,ACHE,Cinnamomum,Modulates / Inhibits
+trans-Cinnamaldehyde,GSK3B,Cinnamomum,Modulates / Inhibits
+trans-Cinnamaldehyde,MAPT,Cinnamomum,Modulates / Inhibits
+trans-Cinnamaldehyde,TNF,Cinnamomum,Modulates / Inhibits
+trans-Cinnamaldehyde,IL6,Cinnamomum,Modulates / Inhibits
+trans-Cinnamaldehyde,PTGS2,Cinnamomum,Modulates / Inhibits
+trans-Cinnamaldehyde,NFE2L2,Cinnamomum,Modulates / Inhibits
+trans-Cinnamic acid,ACHE,Cinnamomum,Modulates / Inhibits
+trans-Cinnamic acid,BACE1,Cinnamomum,Modulates / Inhibits
+trans-Cinnamic acid,NFE2L2,Cinnamomum,Modulates / Inhibits
+trans-Cinnamic acid,SOD1,Cinnamomum,Modulates / Inhibits
+Cinnamyl acetate,ACHE,Cinnamomum,Modulates / Inhibits
+Cinnamyl acetate,PTGS2,Cinnamomum,Modulates / Inhibits
+Eugenol,ACHE,Cinnamomum,Modulates / Inhibits
+Eugenol,BCHE,Cinnamomum,Modulates / Inhibits
+Eugenol,MAOB,Cinnamomum,Modulates / Inhibits
+Eugenol,PTGS2,Cinnamomum,Modulates / Inhibits
+Eugenol,TNF,Cinnamomum,Modulates / Inhibits
+Eugenol,NFE2L2,Cinnamomum,Modulates / Inhibits
+Eugenol,SOD1,Cinnamomum,Modulates / Inhibits
+Linalool,ACHE,Cinnamomum,Modulates / Inhibits
+Linalool,BCHE,Cinnamomum,Modulates / Inhibits
+Linalool,CASP3,Cinnamomum,Modulates / Inhibits
+Linalool,BDNF,Cinnamomum,Modulates / Inhibits
+Linalool,TNF,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,ACHE,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,BACE1,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,GSK3B,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,MAPT,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,APP,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,NFE2L2,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,AKT1,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,BCL2,Cinnamomum,Modulates / Inhibits
+(-)-Epicatechin,BDNF,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,ACHE,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,BACE1,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,GSK3B,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,MAPT,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,APP,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,NFE2L2,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,AKT1,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,BCL2,Cinnamomum,Modulates / Inhibits
+(+)-Catechin,BDNF,Cinnamomum,Modulates / Inhibits
+Procyanidin A2,BACE1,Cinnamomum,Modulates / Inhibits
+Procyanidin A2,GSK3B,Cinnamomum,Modulates / Inhibits
+Procyanidin A2,MAPT,Cinnamomum,Modulates / Inhibits
+Procyanidin A2,APP,Cinnamomum,Modulates / Inhibits
+Procyanidin A2,TNF,Cinnamomum,Modulates / Inhibits
+Procyanidin A2,IL6,Cinnamomum,Modulates / Inhibits
+Procyanidin A2,AKT1,Cinnamomum,Modulates / Inhibits
+Coumarin,ACHE,Cinnamomum,Modulates / Inhibits
+Coumarin,BCHE,Cinnamomum,Modulates / Inhibits
+Coumarin,MAOB,Cinnamomum,Modulates / Inhibits
+Coumarin,PTGS2,Cinnamomum,Modulates / Inhibits
+Camphor,ACHE,Cinnamomum,Modulates / Inhibits
+Camphor,PTGS2,Cinnamomum,Modulates / Inhibits
+Camphor,SOD1,Cinnamomum,Modulates / Inhibits
+beta-Caryophyllene,PTGS2,Cinnamomum,Modulates / Inhibits
+beta-Caryophyllene,TNF,Cinnamomum,Modulates / Inhibits
+beta-Caryophyllene,IL6,Cinnamomum,Modulates / Inhibits
+beta-Caryophyllene,BDNF,Cinnamomum,Modulates / Inhibits
+beta-Caryophyllene,AKT1,Cinnamomum,Modulates / Inhibits

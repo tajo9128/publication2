@@ -1,0 +1,9 @@
+GO_Term,Category,Count,P_Value,NegLogP
+acetylcholine metabolic process (BP),BP,12,1.1e-13,12.96
+cellular response to oxidative stress (BP),BP,14,3.4e-11,10.47
+positive regulation of kinase activity (BP),BP,11,8.2e-10,9.09
+negative regulation of apoptotic process (BP),BP,13,2.5e-09,8.6
+synaptic membrane (CC),CC,15,4.1e-12,11.39
+postsynaptic density (CC),CC,10,6.7e-09,8.17
+acetylcholinesterase activity (MF),MF,8,5.2e-15,14.28
+protein serine/threonine kinase activity (MF),MF,9,1.8e-08,7.74

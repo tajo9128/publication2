@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset or software, please cite it as below."
+authors:
+- family-names: "Shaik"
+  given-names: "Tajuddin"
+  orcid: "https://orcid.org/0000-0002-XXXX-XXXX"
+- family-names: "Ravindiran"
+  given-names: "Saravanan"
+- family-names: "S."
+  given-names: "Anbuselvi"
+- family-names: "Sudhakar"
+  given-names: "M."
+title: "Deciphering the Multi-Target Neuroprotective Mechanisms of Evolvulus alsinoides and Cinnamomum in Alzheimer's Disease: An Integrated Network Pharmacology, KEGG Pathway Enrichment, 100ns Molecular Dynamics, and MM-PBSA Study via BioDockify Platform"
+version: 1.0.0
+date-released: 2026-08-15
+url: "https://github.com/tajo9128/publication2"

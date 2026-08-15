@@ -1,0 +1,9 @@
+Pathway,ID,Category,Gene_Count,P_Value,FDR,Enrichment_Ratio,NegLogP
+Alzheimer's disease,hsa05010,Neurodegenerative Disease,18,2.85e-16,1.12e-13,14.8,15.54515513999149
+Cholinergic synapse,hsa04725,Neurotransmission,14,1.42e-14,3.84e-12,12.2,13.847711655616944
+PI3K-Akt signaling pathway,hsa04151,Signal Transduction,16,5.61e-12,8.9e-10,9.4,11.251037138743838
+NF-kappa B signaling pathway,hsa04064,Immune / Inflammation,12,4.18e-09,4.52e-07,8.1,8.378823718224965
+Apoptosis - Multiple Species,hsa04210,Cell Growth & Death,11,8.75e-08,7.2e-06,7.3,7.057991946977687
+Glutamatergic synapse,hsa04724,Neurotransmission,9,3.12e-06,0.00021,6.5,5.505845405981558
+FoxO signaling pathway,hsa04068,Signal Transduction,8,1.25e-05,0.00068,5.9,4.903089986991944
+Neuroactive ligand-receptor,hsa04080,Signaling Molecules,8,4.5e-05,0.00195,4.8,4.346787486224656
